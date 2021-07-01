@@ -11,7 +11,12 @@
     "docker-dev-up-build": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build",
     "docker-dev-up-scale": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --scale node-app=2",
     "docker-dev-up-volume": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d -V",
-    "docker-dev-down": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml down"
+    "docker-dev-down": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml down",
+    "docker-pro-up": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d",
+    "docker-pro-up-build": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build",
+    "docker-pro-up-scale": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --scale node-app=2",
+    "docker-pro-up-volume": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d -V",
+    "docker-pro-down": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml down"
   },
   "author": "",
   "license": "ISC",
