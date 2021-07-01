@@ -9,7 +9,7 @@ services:
   node-app:
     volumes:
       - ./:/app
-      - /app/node-modules
+      - /app/node_modules
     environment:
       - NODE_ENV=development
       - SESSION_SECRET=secret
