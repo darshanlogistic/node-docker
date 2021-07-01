@@ -57,7 +57,7 @@ app.use(
 app.use(express.json())
 
 app.get("/", (req, res) => {
-  res.send("Hello From Docker hello ewew")
+  res.send("Hello From Docker server")
 })
 
 app.use("/posts", postRouter)
